@@ -1,0 +1,20 @@
+.Skills{
+  h2{
+    text-align: center;
+  }
+ ul{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+ li{
+  flex-basis: calc(33% - 20px);
+  color: #fff;
+  background-color: #e63946;
+  text-align: center;
+  border-radius: 10px;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+ }
+}
