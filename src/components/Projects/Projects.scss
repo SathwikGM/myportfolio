@@ -1,0 +1,23 @@
+.Projects{
+  background-color: #f5efef;
+  text-align: center;
+  ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  li{
+    text-align: start;
+    list-style: none;
+    width: 800px;
+    background-color: #00f5d4;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  a{
+    text-decoration: inherit;
+    color: #646cff;
+  }
+}
