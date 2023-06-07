@@ -1,11 +1,14 @@
 import "./Projects.scss";
+import myportfolioImage from '../../assets/images/myportfolio.png';
+import trackerImage from '../../assets/images/tracker.png';
+
 
 const Projects = () => {
-
+ 
   const projectDetails = [
     {
       name: "Portfolio",
-      img:'src/assets/myportfolio.png',
+      img: myportfolioImage,
       github: "https://github.com/SathwikGM/myportfolio",
       demo: "https://sathwikgm.netlify.app/",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -13,7 +16,7 @@ const Projects = () => {
     },
     {
       name: "Tracker",
-      img:'src/assets/tracker.png',
+      img: trackerImage,
       github: "https://github.com/SathwikGM/bug-tracker",
       demo: "https://sathwikgm.netlify.app/",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
