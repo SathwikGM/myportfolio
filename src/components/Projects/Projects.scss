@@ -1,6 +1,10 @@
 .Projects{
   background-color: #f5efef;
   text-align: center;
+  img{
+  height: 60vh;
+  width: 50vw;
+  }
   ul{
     display: flex;
     flex-direction: column;
@@ -8,13 +12,21 @@
     align-items: center;
   }
   li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: start;
     list-style: none;
-    width: 800px;
-    background-color: #00f5d4;
     padding: 10px;
     margin: 10px;
+    div{
+      margin: 20px;
+    }
     
+  }
+  a, p, h2{
+    margin: 30px;
+    // padding: 20px;
   }
   a{
     text-decoration: inherit;
