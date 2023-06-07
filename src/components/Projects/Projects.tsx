@@ -5,7 +5,7 @@ const Projects = () => {
   const projectDetails = [
     {
       name: "Portfolio",
-      img:'/src/assets/myportfolio.png',
+      img:'src/assets/myportfolio.png',
       github: "https://github.com/SathwikGM/myportfolio",
       demo: "https://sathwikgm.netlify.app/",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       name: "Tracker",
-      img:'/src/assets/tracker.png',
+      img:'src/assets/tracker.png',
       github: "https://github.com/SathwikGM/bug-tracker",
       demo: "https://sathwikgm.netlify.app/",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -24,7 +24,7 @@ const Projects = () => {
     return (
       <li>
         <div>
-          <img src={project.img} alt="" />
+          <img src={project.img}  alt={project.name} />
         </div>
         <div>
           <h2>{project.name}</h2>
