@@ -4,7 +4,6 @@ import trackerImage from '../../assets/images/tracker.png';
 
 
 const Projects = () => {
- 
   const projectDetails = [
     {
       name: "Portfolio",
