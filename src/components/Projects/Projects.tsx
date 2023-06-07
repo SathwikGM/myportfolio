@@ -13,7 +13,7 @@ const Projects = () => {
     },
     {
       name: "Tracker",
-      img:'src/assets/myportfolio.png',
+      img:'src/assets/tracker.png',
       github: "https://github.com/SathwikGM/bug-tracker",
       demo: "https://sathwikgm.netlify.app/",
       description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
