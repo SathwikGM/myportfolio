@@ -1,5 +1,15 @@
 .Hero{
-  padding: 20px;
+  padding: 100px;
   height: 50vh;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  h1, p{
+    padding: 10px;
+    margin: 10px;
+  }
+
 }

@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 .Navbar{
-  background-color: #f7f5f5;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  font-family: 'Montserrat', sans-serif;
-
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: flex-end;
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f7f5f5;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-end;
+   
 
   li{
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    background-color:bisque;
+    // background-color:bisque;
     list-style: none;
   }
 

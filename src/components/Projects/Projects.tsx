@@ -1,4 +1,5 @@
 import "./Projects.scss";
+import  Button from "../Button/Button"
 import myportfolioImage from '../../assets/images/myportfolio.png';
 import trackerImage from '../../assets/images/tracker.png';
 
@@ -10,7 +11,7 @@ const Projects = () => {
       img: myportfolioImage,
       github: "https://github.com/SathwikGM/myportfolio",
       demo: "https://sathwikgm.netlify.app/",
-      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:"Portfolio is a personal website that showcases my work, skills, and accomplishments. It serves as a digital portfolio or resume, allowing me to present my projects, experience, and expertise ",
 
     },
     {
@@ -18,7 +19,7 @@ const Projects = () => {
       img: trackerImage,
       github: "https://github.com/SathwikGM/bug-tracker",
       demo: "https://sathwikgm.netlify.app/",
-      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description:"Tracker is a Bug tracking software which lets you create and manage bugs. It is still under development and new features will be addded soon",
     }
   ]
 
@@ -31,8 +32,8 @@ const Projects = () => {
         <div>
           <h2>{project.name}</h2>
         <p>{ project.description}</p>
-          <a href={project.github}>github</a>
-          <a href={project.demo}>Demo</a>
+          <Button><a href={project.github}>github</a></Button>
+          <Button><a href={project.demo}>Demo</a></Button>
         </div>
       </li>
     )

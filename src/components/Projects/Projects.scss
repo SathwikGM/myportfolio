@@ -1,9 +1,11 @@
 .Projects{
   background-color: #f5efef;
+  
   text-align: center;
   img{
   height: 60vh;
   width: 50vw;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   ul{
     display: flex;
@@ -29,7 +31,11 @@
     // padding: 20px;
   }
   a{
+    padding: 10px;
     text-decoration: inherit;
     color: #646cff;
+  }
+  Button{
+    margin: 10px;
   }
 }
